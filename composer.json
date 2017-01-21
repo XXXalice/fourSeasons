@@ -1,0 +1,5 @@
+{
+    "require": {
+        "fieg/bayes": "^1.0"
+    }
+}

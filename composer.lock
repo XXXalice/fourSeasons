@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "fe4ed48127004421d354a0d1064afa50",
+    "content-hash": "395d943f41fd1f36e6d51c128d4a0771",
+    "packages": [
+        {
+            "name": "fieg/bayes",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fieg/bayes.git",
+                "reference": "fb90b5b3b1ac0922f876f496081de3807b74d4fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fieg/bayes/zipball/fb90b5b3b1ac0922f876f496081de3807b74d4fb",
+                "reference": "fb90b5b3b1ac0922f876f496081de3807b74d4fb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Fieg": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "fieg",
+                    "email": "jeroen@webcreate.nl"
+                }
+            ],
+            "description": "Implementation of Naive Bayes Classifier algorithm in PHP.",
+            "homepage": "https://github.com/fieg/bayes",
+            "keywords": [
+                "bayes",
+                "classifier",
+                "learning",
+                "machine",
+                "naive"
+            ],
+            "time": "2016-06-02 11:23:16"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

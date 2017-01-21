@@ -1,0 +1,25 @@
+{
+  "name": "fieg/bayes",
+  "description": "Implementation of Naive Bayes Classifier algorithm in PHP.",
+  "type": "library",
+  "keywords": ["machine", "learning", "naive", "bayes", "classifier"],
+  "homepage": "https://github.com/fieg/bayes",
+  "authors": [
+    {
+      "name": "fieg",
+      "email": "jeroen@webcreate.nl"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-0": {"Fieg": "src/"}
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}
